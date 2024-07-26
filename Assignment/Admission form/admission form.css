@@ -1,0 +1,20 @@
+body{
+    margin-left: 25%;
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin-right: 25%;
+    padding-left: 6%;
+
+}
+#button{
+    background-color:wheat;
+    height: 35px;
+    width: 100px;
+}
+.c1{
+    margin-left: 20%;
+}
+.c2{
+    width: 90%;
+    margin-left: -3%;
+}

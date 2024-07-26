@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="admission form.css">
+</head>
+<body>
+    
+  <h1 class="c1">College Admission Form</h1><hr class="c2"><br><br>
+    <form>
+        <input type="checkbox" name="checkbox" id="checkbox" checked required>
+        <label for="email"><b>Email ID:</b> </label>
+        <input type="email" id="email" name="email"placeholder="Enter your email" required><br><br><br>
+
+        <!-- <b class="b1">Name:</b><br><br> -->
+        <label for="firstname"><b>First Name:</b> </label>
+        <input type="text" id="firstname" name="firstname"Placeholder="Enter your first name" required>
+        <label for="lastname"><b>Last Name:</b> </label>
+        <input type="text" id="lastname" name="lastname"placeholder="Enter your last name" required><br><br><br>
+
+        <label for="fathername"><b>Father's Name:</b> </label>
+        <input type="text" id="fathername" name="fathername"placeholder="Enter father name" required><br><br><br>
+
+        <label><b>Gender:</b> </label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br><br>
+
+        <label for="address1"><b>Address 1:</b> </label>
+        <input type="text" id="address1" name="address1"placeholder="Enter street" required><br><br><br>
+
+        <label for="address2"><b>Address 2:</b> </label>
+        <input type="text" id="address2"placeholder="Enter locality" name="address2"><br><br><br>
+
+        <label for="address3"><b>Address 3:</b> </label>
+        <input type="text" id="address3"placeholder="Enter city" name="address3"><br><br><br>
+
+        <label for="phone"><b>Phone No:</b> </label>
+        <select id="country-code" name="country-code">
+            <option value="91" selected>+91</option>
+            <option value="960">+92</option>
+            <option value="876">+880</option>
+            <option value="00">+1</option>
+            <option value="75">+94</option>
+            
+        </select>
+        <input type="tel" id="phone" name="phone"placeholder="Enter mobile number" pattern="[0-9]{10}" required><br><br><br>
+
+        <label for="country"><b>Country:</b> </label>
+        <select id="country" name="country">
+            <option value="india" selected>India</option>
+            <option value="">Dubai</option>
+            <option value="">Canada</option>
+            <option value="US">US</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            
+        </select><br><br><br>
+
+        <label for="resume"><b>Passport size photo:</b> </label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br><br>
+
+        <label for="coverletter">Cover Letter: </label><br>
+        <textarea id="coverletter" name="coverletter" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms</label><br><br><br>
+
+       <center><input id="button" type="button" value="Submit"></center> 
+    </form><br>
+
+
+</body>
+</html>
