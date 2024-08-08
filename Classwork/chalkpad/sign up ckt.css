@@ -1,0 +1,63 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url(Chitkara_University_pic.jpg) ;
+
+    background-size: cover;
+    
+
+}
+.form{
+    background-color: white;
+    width: 290px;
+    height: 600px;
+    margin-left: 70%;
+    border-radius: 10px;
+    margin-top: 4%;
+
+}
+#logo_373{
+    padding: 50px  30px;
+    
+}
+.bar{
+    width: 75%;
+    margin: 2% 11% ;
+}
+.l1{
+    margin: 0 13%;
+    font-size: 15px;
+    
+}
+.l3{
+    height: 6px;
+    background-color: red;
+   
+}
+.l4{
+    float: right;
+    margin:-6px 30px 0px 0px;
+
+}
+
+   
+  
+
+
+#button{
+    margin: 0 13%;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+   background-color: crimson;
+   color: white;
+   margin-top: 10px;
+  
+   width: 210px;
+   margin: 0 13%;
+  
+}
